@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="400px" height="418px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 400 418" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+    <style type="text/css">
+        <![CDATA[
+            .light-blue {
+                fill: #03A9F4;
+                stroke: #03A9F4;
+            }
+
+            .dark-blue {
+                fill: #3F51B5;
+                stroke: #3F51B5;
+            }
+
+            .purple {
+                fill: #9C27B0;
+                stroke: #9C27B0;
+            }
+
+            .pink {
+                fill: #E91E63;
+                stroke: #E91E63;
+            }
+
+            .shadow {
+                fill: #373435;
+                fill-opacity: 0;
+                animation: fadeIn 5s ease forwards;
+            }
+
+            .ribbon {
+                stroke-width: 4;
+                stroke-dasharray: 1000;
+                stroke-dashoffset: 1000;
+                animation: draw 5s ease forwards;
+                fill-opacity: 0;
+            }
+
+            @keyframes draw {
+                50% {
+                    fill-opacity: 0;
+                }
+
+                100% {
+                    stroke-dashoffset: 0;
+                    fill-opacity: 1;
+                }
+            }
+
+            @keyframes fadeIn {
+                80% {
+                    fill-opacity: 0;
+                }
+
+                100% {
+                    fill-opacity: 0.2;
+                }
+            }
+        ]]>
+    </style>
+    </defs>
+
+    <g id="javaabu-logo">
+        <path class="rib6 purple ribbon" d="M46 327l308 0 46 0 0 46c0,25 -20,45 -46,45l-308 0c-25,0 -46,-20 -46,-45l0 -46 46 0z"/>
+        <path class="rib5 pink ribbon" d="M0 373l0 0 0 -46 0 -34 0 -97 67 -50 1 1 23 13 0 133 0 34 0 46 0 45 -45 0c-26,0 -46,-20 -46,-45z"/>
+        <path class="rib7 light-blue ribbon" d="M309 327l0 -34 91 0 0 34 0 46c0,25 -20,45 -46,45l-45 0 0 -91z"/>
+        <polygon class="rib1 pink ribbon" points="318,61 195,153 169,59 248,0 "/>
+        <polygon class="rib2 purple ribbon" points="175,80 175,80 228,276 306,217 295,176 295,176 248,0 169,59 "/>
+        <path class="rib3 light-blue ribbon" d="M265 248l0 0 -8 6 -2 1 -19 14 -33 25 0 1 -6 4c-3,2 -7,4 -11,5l0 0 -1 0 0 0 0 0c-3,1 -7,2 -10,2l0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 0 0 -1 -1 0 0 -1 0c-5,0 -10,-2 -15,-4l-3 -2c0,-1 -1,-1 -1,-1l-33 -19 0 0 -24 -14 92 -69 0 0 84 -62 15 -12 25 95 -41 31z"/>
+        <path class="rib4 dark-blue ribbon" d="M156 198l40 23 39 23 20 11 -19 14 -33 25c-5,5 -11,8 -17,10l0 0 -1 0 0 0 0 0c-3,1 -7,2 -10,2l0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 0 0 -1 0 0 0 -1 0 -1 0 0 0 -1 -1 0 0 -1 0c-5,0 -10,-2 -15,-4l-3 -2c0,-1 -1,-1 -1,-1l-33 -19 0 0 -114 -66 0 -17 2 -1 65 -49 89 52 0 0z"/>
+        <polygon class="shadow s5" points="91,327 91,418 103,327 "/>
+        <polygon class="shadow s4" points="91,266 0,213 91,278 "/>
+        <polygon class="shadow s3" points="255,255 169,206 263,250 "/>
+        <polygon class="shadow s2" points="202,181 281,122 200,172 "/>
+        <polygon class="shadow s1" points="273,95 248,0 280,89 "/>
+    </g>
+</svg>
